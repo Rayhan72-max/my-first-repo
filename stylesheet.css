@@ -6,13 +6,19 @@ body{
 .name{color:grey}
 section{display: flex;}
 .half-width{
+    padding: 5%;
     width:50%;
     float: left;
 }
-.imageDU{
+
+div{padding: 5%;}
+.half-width img{
+    width:50%;
+}
+/*.imageDU{
     width:180px;
     margin-top: 10%;
-}
+} */
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(blue,tomato);
@@ -20,13 +26,28 @@ section{display: flex;}
     color:white;
     border-radius: 5px;
 }
-footer{
+header{
 
     background-color:black;
     padding:3px;
     margin-top: 0%;
+    font-size: 15px;
     
 }
+
+.footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:5px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+}
+
+
+
 .typewriter{
     color: white;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
